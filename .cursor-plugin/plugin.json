@@ -1,12 +1,18 @@
 {
-  "name": "humanizer",
-  "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says.",
-  "version": "3.1.0",
+  "name": "humanizer-nl",
+  "description": "Herschrijf Nederlandstalige AI-tekst in de stem van de schrijver met behoud van betekenis en feiten.",
+  "version": "4.0.0",
   "author": {
     "name": "blader"
   },
-  "homepage": "https://github.com/blader/humanizer",
-  "repository": "https://github.com/blader/humanizer",
+  "homepage": "https://github.com/pinkroosterai/humanizernl",
+  "repository": "https://github.com/pinkroosterai/humanizernl",
   "license": "MIT",
-  "keywords": ["writing", "editing", "humanize", "prose", "style"]
+  "keywords": [
+    "writing",
+    "editing",
+    "humanize",
+    "prose",
+    "style"
+  ]
 }

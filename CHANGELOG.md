@@ -1,4 +1,13 @@
-# Changelog
+# Versiegeschiedenis
+
+## 4.0.0
+
+- Nederlandse bewerking als humanizer-nl, naast het origineel te gebruiken.
+- Alle 26 patronen, voorbeelden en documentatie aangepast aan Nederlands taalgebruik in Nederland.
+- Nederlandse samenstellingen, vertaald Engels, naamwoordstijl en functionele typografie krijgen passende aanwijzingen.
+- Standaard alleen de eindtekst; feiten, onzekerheid, aanspreekvorm en schrijfstem blijven behouden.
+- Pakketmetadata, installatieverwijzingen en validator bijgewerkt.
+
 
 ## 3.1.0
 

@@ -74,8 +74,8 @@ if SKILL_PATH.is_symlink() or skill_files != {Path("SKILL.md")}:
     raise SystemExit("Keep one regular SKILL.md at the repo root")
 if PLUGIN.get("skills") != ["./"]:
     raise SystemExit("Point the Claude plugin skill loader at the repo root")
-if CURSOR_PLUGIN.get("name") != "humanizer":
-    raise SystemExit("Set the Cursor plugin name to humanizer")
+if CURSOR_PLUGIN.get("name") != "humanizer-nl":
+    raise SystemExit("Set the Cursor plugin name to humanizer-nl")
 if "skills" in CURSOR_PLUGIN:
     raise SystemExit("Omit skills from the Cursor plugin so it loads the root SKILL.md")
 
@@ -123,8 +123,8 @@ renamed = [
 ]
 if renamed:
     raise SystemExit("Match the README pattern names to SKILL.md: " + "; ".join(renamed))
-if f"## The {pattern_count} patterns" not in README:
-    raise SystemExit(f"Title the README pattern section 'The {pattern_count} patterns'")
+if f"## De {pattern_count} patronen" not in README:
+    raise SystemExit(f"Title the README pattern section 'De {pattern_count} patronen'")
 
 # A renumber can leave a section reference pointing at the wrong pattern or at
 # nothing. CHANGELOG.md keeps the numbers each release used, so read SKILL.md only.
